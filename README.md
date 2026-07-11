@@ -19,6 +19,8 @@ SIGNOVA is a real-time American Sign Language (ASL) recognition system that runs
 - Lightweight desktop GUI
 
 ## Project Structure
+
+```
 SIGNOVA/
 ├── best.pt                        # Trained YOLOv11n model weights
 ├── data.yaml                       # Dataset config for training/validation
@@ -28,6 +30,7 @@ SIGNOVA/
 ├── img_label_val.py                 # Validation data labeling script
 ├── signova_model_training.ipynb      # Model training notebook (Colab)
 └── asl_letters.jpg                  # Reference chart of ASL letters
+```
 
 ## Setup & Usage
 
